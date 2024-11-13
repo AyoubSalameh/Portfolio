@@ -2,7 +2,7 @@ import React from 'react';
 import './NavBar.css';
 import logo from '../assets/images/logo.png';
 import { Navbar, Container, Nav, Button } from 'react-bootstrap';
-import { FaGithub, FaLinkedin } from 'react-icons/fa';
+import { Linkedin, Github } from "react-bootstrap-icons";
 
 function NavBar() {
     //to know which part of the page the user is currently at, and to jump in case they click
@@ -50,11 +50,10 @@ function NavBar() {
                     </Nav>
                     <Nav>
                         <Nav.Link href='https://www.linkedin.com/in/ayoub-salameh/' target='_blank' rel="noopener noreferrer">
-                            <FaLinkedin className='website-icon' />
+                            <Linkedin className='website-icon'/>
                         </Nav.Link>
                         <Nav.Link href='https://github.com/AyoubSalameh' target='_blank' rel="noopener noreferrer">
-                            {/* <Button variant="outline" href='#'><FaGithub size={24}/></Button> */}
-                            <FaGithub className='website-icon'/>
+                            <Github className='website-icon'/>
                         </Nav.Link>
                     </Nav>
                     <Button className='btn' variant='outline-secondary' onClick={()=> console.log('connect')}>
