@@ -5,8 +5,8 @@ nav.navbar {
     top: 50;
     z-index: 9999;
     transition:  0.32s ease-in-out;
-    background-color: #9fa4fb;
-    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.3);
+    /* background-color: #9fa4fb; */
+    /* box-shadow: 0 8px 10px rgba(0, 0, 0, 0.3); */
   }
 
 nav.navbar.scrolled {
