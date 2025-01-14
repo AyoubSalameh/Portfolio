@@ -6,7 +6,7 @@ function Banner() {
   return (
     <section className="banner" id="home">
         <Container>
-            <Row className='alignn-items-center'>
+            <Row className='align-items-center'>
                 <Col>
                     <h1 style={{paddingBottom: '50px'}}>Ayoub Salameh</h1>
                     <h1>Software Engineer</h1>

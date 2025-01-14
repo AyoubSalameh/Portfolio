@@ -1,5 +1,4 @@
-.about
-{
-    /* background-color: rgb(189, 138, 237); */
-    height: 200px;
+.about{
+    padding: 50px;
+    display: flex;
 }
