@@ -21,6 +21,13 @@ html {
   scroll-padding-top: 75px;
 }
 
+body{
+  
+  background-image: url('./assets/images/portfolio-bg3.jpg');
+  background-size: cover;
+
+}
+
 h1{
   font-family: 'Melodrama', sans-serif;
   font-size: 10vw;

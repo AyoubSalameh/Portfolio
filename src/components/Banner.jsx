@@ -10,9 +10,6 @@ function Banner() {
                 <Col>
                     <h1 style={{paddingBottom: '50px'}}>Ayoub Salameh</h1>
                     <h1>Software Engineer</h1>
-                    <Button className='banner-btn' onClick={() => console.log('connect')}>
-                        Contact Me
-                    </Button>
                 </Col>
 
             </Row>

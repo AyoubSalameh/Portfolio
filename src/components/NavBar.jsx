@@ -19,12 +19,12 @@ function NavBar() {
             else {
                 setScrolled(false);
             }
-
-            //listen to changes in the scroll position
-            window.addEventListener('scroll', handleScroll);
-            
-            return () => { window.removeEventListener('scroll', handleScroll);}
         }
+            //listen to changes in the scroll position
+        window.addEventListener('scroll', handleScroll);
+            
+        return () => { window.removeEventListener('scroll', handleScroll);}
+        
     },[]);
 
     const updateActiveLink = (link) => {setActiveLink(link)};
