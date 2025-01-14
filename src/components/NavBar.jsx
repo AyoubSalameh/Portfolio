@@ -10,6 +10,7 @@ function NavBar() {
     
     //navbar color change on scroll
     const [scrolled, setScrolled] = React.useState(false);
+    const [expanded, setExpanded] = React.useState(false);
 
     React.useEffect(() => {
         const handleScroll = () => {
@@ -29,13 +30,15 @@ function NavBar() {
 
     const updateActiveLink = (link) => {setActiveLink(link)};
 
+    const handleToggle = () => {setExpanded(!expanded)};
+
     return(
-        <Navbar expand="lg" className={scrolled ? "scrolled" : ""}>
+        <Navbar expand="lg" className={scrolled || expanded ? "scrolled" : ""}>
             <Container>
                 <Navbar.Brand href="#home">
                     <img src={logo} alt='Logo' style={{height: '35px'}}/>
                 </Navbar.Brand>
-                <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                <Navbar.Toggle aria-controls="basic-navbar-nav" onClick={handleToggle}/>
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="me-auto">
                         <Nav.Link href="#home" className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'} onClick={() => updateActiveLink('home')}>
