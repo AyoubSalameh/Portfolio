@@ -25,7 +25,7 @@ nav.navbar.scrolled {
 }
 
 .navbar-link.active {
-    font-weight: bold;
+    /* font-weight: bold; */
 }
 
 .navbar-link:hover {
