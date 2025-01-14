@@ -1,6 +1,7 @@
 .about{
-    margin-top: 50px;
+    /* margin-top: 50px; */
     display: flex;
+    padding-bottom: 20px;
 }
 
 @keyframes float {
