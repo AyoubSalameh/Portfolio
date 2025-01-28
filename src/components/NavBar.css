@@ -24,9 +24,9 @@ nav.navbar.scrolled {
     text-decoration: none;
 }
 
-.navbar-link.active {
-    /* font-weight: bold; */
-}
+/* .navbar-link.active {
+    font-weight: bold;
+} */
 
 .navbar-link:hover {
     color: #646cff !important;

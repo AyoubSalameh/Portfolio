@@ -62,7 +62,7 @@ function NavBar() {
                             <Github className='website-icon'/>
                         </Nav.Link>
                     </Nav>
-                    <Button className='btn' variant='outline-secondary' onClick={()=> console.log('connect')}>
+                    <Button href='#contact' className='btn' variant='outline-secondary'>
                         Contact Me
                     </Button>
                 </Navbar.Collapse>
